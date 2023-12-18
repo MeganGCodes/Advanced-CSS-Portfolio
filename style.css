@@ -1,17 +1,24 @@
-
+    /* Root styling */
+    
 * {
+        /* Page fortmating */
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+        /* Set Page Font */
     font-family: 'Roboto', sans-serif;
 }
+/* Header Styling */
 header{
+    /* makes the navbar larger in width and fixes the postion*/
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 120px;
+    /* Color for nav */
     background: #11141a;
+    /* Navbar formatting */
     display: flex;
     justify-content: space-between;
     align-items: center;
