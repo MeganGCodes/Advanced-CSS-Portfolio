@@ -64,7 +64,6 @@ section{
     min-height: 100vh;
     display: flex;
     /* centers where the words are */
-    justify-content: center;
     align-items: center;
     /* changes the color of the page */
     background: #1f242d;
@@ -82,16 +81,58 @@ background: #323946;
 }
 
 /* Sidebar */
-.sidebar {
+/* .sidebar {
     display: flex;
     justify-content: space-around;
-    /* padding: 3em; */
-}
+    flex-direction: row;
+} */
 
 /* Line */
 .box {
     background-color: #000;
     width: 10px;
+    height: 250px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img{
+    width: auto;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 260px;
+    margin-bottom: 200px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.pannels{
+display: flex;
+flex-wrap: wrap ;
+color: #000;
+font-size: 36px;
+}
+.panel1{
+    background-color: #ffffff;
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.panel2{
+    background-color: #fff;
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.panel3{
+    background-color: #fff;
+    width: 500px;
     height: 250px;
     display: block;
     margin-left: 20px;
